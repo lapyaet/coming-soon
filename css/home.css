@@ -13,7 +13,7 @@
     width: 7rem;
     height: auto;
     margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 .home__text h3 {
@@ -52,6 +52,12 @@
     align-items: center;
     justify-content: center;
     gap: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+
+.home-items-circle:hover {
+    border: 4px solid rgba(43, 89, 255, 0.8);
 }
 
 .home-items-circle h2 {
@@ -72,7 +78,7 @@
 
 .search input {
     width: 22rem;
-    padding: 0.6rem 1rem;
+    padding: 0.7rem 1.2rem;
     outline: none;
     background-color: transparent;
     border: 2px solid snow;
@@ -92,18 +98,19 @@
     color: #ffff;
     opacity: 0.8;
     right: 1rem;
-    top: 25%;
+    top: 36%;
+    font-size: 0.7rem;
 }
 
 .home__bottom {
     display: flex;
     gap: 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .home__bottom i {
     color: #ffffff;
-    font-size: 00.9rem;
+    font-size: 0.8rem;
 }
 
 .home__bottom i:nth-child(4) {
