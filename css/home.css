@@ -154,6 +154,26 @@
         flex-direction: column;
     }
 
+    .home__text h3 {
+        font-size: 3rem;
+    }
+
+    .home__text p {
+        font-size: 1rem;
+    }
+
+    .home-items-circle h2 {
+        font-size: 4rem;
+    }
+
+    .home-items-circle p {
+        font-size: 1.2rem;
+    }
+
+    .search i {
+        font-size: 1.3rem;
+    }
+
     .ellipse2 {
         top: 60%;
     }
