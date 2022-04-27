@@ -110,7 +110,7 @@
 
 .home__bottom i {
     color: #ffffff;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .home__bottom i:nth-child(4) {
@@ -152,6 +152,7 @@
 @media (min-width:0) and (max-width:820px) {
     .home-items {
         flex-direction: column;
+        gap: 2rem;
     }
 
     .home__text h3 {
@@ -163,15 +164,15 @@
     }
 
     .home-items-circle h2 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     .home-items-circle p {
         font-size: 1.2rem;
     }
 
-    .search i {
-        font-size: 1.3rem;
+    .home__bottom i {
+        font-size: 1.5rem;
     }
 
     .ellipse2 {
@@ -179,7 +180,12 @@
     }
 
     .search input {
-        width: 23rem;
-        padding: 1rem ;
+        width: 25rem;
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .search i {
+        font-size: 1rem;
     }
 }
